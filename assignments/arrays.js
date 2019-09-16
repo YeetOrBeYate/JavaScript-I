@@ -88,9 +88,11 @@ console.log(inventory[lastCar]);
 let carModels = inventory.sort((a,b) => (a.car_model > b.car_model) ? 1 : -1);
 let carModelsSorted = [];
 
+
 carModels.forEach((car) => {
   carModelsSorted.push(car.car_model);
 })
+
 console.log(carModelsSorted);
 
 // ==== Challenge 4 ====
