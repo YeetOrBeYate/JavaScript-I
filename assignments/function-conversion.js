@@ -15,7 +15,7 @@ myFunction();
 // anotherFunction("Example");
 
 let anotherFunction = (param) => {console.log(param)};
-anotherFunction("yeet");
+anotherFunction("yeet-Example");
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
@@ -36,6 +36,6 @@ subtract(40,12);
 // Stretch
 
 exampleArray = [1,2,3,4];
-const triple = exampleArray.map(num => num * 3 );
+const triple = exampleArray.map((num) => num * 3 );
 
 console.log(triple);
